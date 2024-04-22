@@ -91,3 +91,62 @@ firstp {
     margin-right: 30px;
 }
 
+/* Filter styles */
+.filter {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filter label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.filter select {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Lab member card styles */
+.lab-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab-member {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.lab-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.lab-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.lab-member h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.lab-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+
